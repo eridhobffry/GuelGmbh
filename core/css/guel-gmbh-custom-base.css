@@ -28,3 +28,11 @@
                 /* bottom, image */
             url("../images/bg-01-1920x1000.jpg");
 }
+
+.styleBox-start {
+    padding-bottom: 30px;
+    padding-top: 10px;
+    border: 2px solid #e2e2e22e;
+    background-color: #9e9e9e2e;
+    box-shadow: 5px 10px 30px #c5c5c538;
+}
