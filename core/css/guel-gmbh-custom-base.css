@@ -1,0 +1,30 @@
+.xing-top:hover {
+    color: #b8d142 !important;
+}
+
+.facebook-top:hover {
+    color: #3f5a93 !important;
+}
+
+.linkedin-top:hover {
+    color: #2c77b0 !important;
+}
+
+.push-bottom-20 {
+    margin-top: 20px !important;
+}
+
+.push-bottom-10 {
+    margin-top: 10px !important;
+}
+
+.tinted-image {
+    background:
+        /* top, transparent red, faked with gradient */
+            linear-gradient(
+                    rgba(184, 209, 66, 0.45),
+                    rgba(184, 209, 66, 0.45)
+            ),
+                /* bottom, image */
+            url("../images/bg-01-1920x1000.jpg");
+}

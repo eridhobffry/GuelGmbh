@@ -1,0 +1,19 @@
+@media (max-width:414px){
+
+    .rd-navbar-default.rd-navbar-fixed .rd-navbar-button .btn {
+        top: 77px !important;
+    }
+
+    .rd-navbar-default.rd-navbar-fixed, .rd-navbar-default.rd-navbar-fixed .rd-navbar-panel {
+        height: 130px !important;
+    }
+
+    .bg-red-base{
+        background: #ff1654 !important;
+    }
+
+    .bg-transparent-base {
+        background: transparent !important;
+    }
+
+}
