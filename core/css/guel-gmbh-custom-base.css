@@ -36,3 +36,15 @@
     background-color: #9e9e9e2e;
     box-shadow: 5px 10px 30px #c5c5c538;
 }
+
+.mobile_adapt-button {
+    display: block;
+}
+
+.rd-navbar-default.rd-navbar-static.rd-navbar--is-stuck {
+    background: rgba(0, 0, 0, 0.42);
+}
+
+.rd-navbar-default.rd-navbar-static.rd-navbar--is-stuck .rd-navbar-panel {
+    border-bottom-color: #727272;
+}

@@ -4,8 +4,8 @@
         top: 77px !important;
     }
 
-    .rd-navbar-default.rd-navbar-fixed, .rd-navbar-default.rd-navbar-fixed .rd-navbar-panel {
-        height: 130px !important;
+    .mobile_adapt-button {
+        display: none;
     }
 
     .bg-red-base{
@@ -14,6 +14,15 @@
 
     .bg-transparent-base {
         background: transparent !important;
+    }
+
+    .rd-navbar-default.rd-navbar-fixed, .rd-navbar-default.rd-navbar-fixed .rd-navbar-panel {
+        height: 76px !important;
+        background-color: transparent;
+    }
+
+    .pull-top-xs-65 {
+        margin-top: -60px !important;
     }
 
 }
