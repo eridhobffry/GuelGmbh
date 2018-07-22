@@ -42,9 +42,112 @@
 }
 
 .rd-navbar-default.rd-navbar-static.rd-navbar--is-stuck {
-    background: rgba(0, 0, 0, 0.42);
+    background: #ffffff;
 }
 
 .rd-navbar-default.rd-navbar-static.rd-navbar--is-stuck .rd-navbar-panel {
-    border-bottom-color: #727272;
+    border-bottom-color: #ffffff;
 }
+
+.terms-list-bordered {
+    text-align: left;
+}
+
+.terms-list-bordered dt {
+    font-size: 22px;
+}
+
+.terms-list-bordered dt {
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: "Jaapokki", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #000;
+    font-size: 20px;
+    line-height: 1.45;
+    letter-spacing: 0;
+    padding-bottom: 12px;
+}
+
+.terms-list-bordered dt + dd {
+    margin-top: 20px;
+}
+
+.terms-list-bordered dd {
+    color: #999;
+}
+
+.terms-list-bordered dd + dt {
+    margin-top: 50px;
+}
+
+.box-spacer {
+    padding: 35px 25px;
+    background: #e8eddf;
+}
+
+.range-75 {
+    position: relative;
+    -webkit-transform: translateY(-40px);
+    transform: translateY(-40px);
+    margin-bottom: -40px;
+}
+
+@media (min-width: 992px) {
+    .range-75 {
+        position: relative;
+        -webkit-transform: translateY(-50px);
+        transform: translateY(-50px);
+        margin-bottom: -50px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .range-75 {
+        position: relative;
+        -webkit-transform: translateY(-75px);
+        transform: translateY(-75px);
+        margin-bottom: -75px;
+    }
+}
+
+/*@media (min-width: 992px) {*/
+    /*.section-xl {*/
+        /*padding: 100px 0;*/
+    /*}*/
+/*}*/
+
+/*@media (min-width: 768px) {*/
+    /*.section-xl {*/
+        /*padding: 70px 0;*/
+    /*}*/
+/*}*/
+
+.section-xl {
+    padding: 170px 0;
+}
+
+.range-75 > * {
+    margin-top: 40px;
+}
+
+.bg-periglacial-blue {
+    background-color: #e8eddf;
+}
+
+.bg-white .box-spacer {
+    background: #fff;
+}
+
+.terms-list-bordered dt:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background: #eff3f1; }
+
+

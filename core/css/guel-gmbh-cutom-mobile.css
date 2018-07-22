@@ -18,11 +18,16 @@
 
     .rd-navbar-default.rd-navbar-fixed, .rd-navbar-default.rd-navbar-fixed .rd-navbar-panel {
         height: 76px !important;
-        background-color: transparent;
+        background-color: #ffffff;
     }
 
     .pull-top-xs-65 {
         margin-top: -60px !important;
+    }
+
+    .style_mobile-swiperBox {
+        margin-left: 23px;
+        width: 90%;
     }
 
 }
