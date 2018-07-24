@@ -61,10 +61,10 @@
     position: relative;
     margin-top: 0;
     margin-bottom: 0;
-    font-family: "Jaapokki", Helvetica, Arial, sans-serif;
+    font-family: ff-clan-web-pro,"Helvetica Neue",Helvetica,sans-serif;
     font-weight: 400;
     color: #000;
-    font-size: 20px;
+    font-size: 4.14286rem !important;
     line-height: 1.45;
     letter-spacing: 0;
     padding-bottom: 12px;
@@ -151,3 +151,38 @@
     background: #eff3f1; }
 
 
+.center-bg {
+    background-position: center;
+    background-size: 10%;
+}
+
+.sytle_bottomLogo-UU {
+    margin-top: -22px;
+    padding-bottom: 60px;
+    font-weight: lighter;
+    font-size: 24px;
+    font-family: ff-clan-web-pro,"Helvetica Neue",Helvetica,sans-serif;
+    color: #737373;
+}
+
+.style_head {
+    font-family: ff-clan-web-pro,"Helvetica Neue",Helvetica,sans-serif;
+    font-weight: 400 !important;
+    ffont-size: 3.71429rem;
+    line-height: 1.23077;
+}
+
+.style_head2 {
+    font-family: ff-clan-web-pro,"Helvetica Neue",Helvetica,sans-serif;
+    font-weight: 200 !important;
+    font-size: 3.14286rem !important;
+    line-height: 1.18182;
+}
+
+.push-top-160 {
+    margin-top: -160px;
+}
+
+.push-top-50 {
+    margin-top: -50px;
+}
