@@ -30,4 +30,8 @@
         width: 90%;
     }
 
+    .styleBox-start {
+        margin-left: -14px !important;
+    }
+
 }

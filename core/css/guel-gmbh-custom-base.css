@@ -34,7 +34,9 @@
     padding-top: 10px;
     border: 2px solid #e2e2e22e;
     background-color: #9e9e9e2e;
-    box-shadow: 5px 10px 30px #c5c5c538;
+    box-shadow: -3px 4px 5px #c5c5c5a6;
+    max-width: 320px !important;
+    background: white;
 }
 
 .mobile_adapt-button {
@@ -185,4 +187,117 @@
 
 .push-top-50 {
     margin-top: -50px;
+}
+
+.box-150 {
+    padding: 6px;
+}
+
+@media only screen and (min-width: 768px) {
+    .box-150 {
+        padding: 12px;
+    }
+}
+
+@media only screen and (min-width: 984px) {
+    .box-150 {
+        padding: 24px;
+    }
+}
+
+.headline-logo-50 {
+    hyphens: none;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: ff-clan-web-pro,"Helvetica Neue",Helvetica,sans-serif;
+    color: black;
+}
+
+.padding-top-12 {
+    padding-top: 12px;
+}
+
+.logo-list {
+    display: inline-block;
+    max-width: 650px;
+}
+
+@media only screen and (min-width: 984px) {
+    .box-145 {
+        padding: 0 24px;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .box-145 {
+        padding: 0 12px;
+    }
+}
+
+.box-145 {
+    padding: 0 6px;
+}
+
+.logo-list li {
+    display: inline-block;
+    margin: 0 10px;
+    overflow: hidden;
+}
+
+.logo-list li img {
+    display: inline-block;
+    width: 90px;
+    /*height: 42px;*/
+}
+
+/*.logs img {*/
+    /*margin: 0 -913px 0 -2px;*/
+/*}*/
+
+.text-color-bblue-helv {
+    color: #2d6aae !important;
+    font-family: ff-clan-web-pro,"Helvetica Neue",Helvetica,sans-serif;
+    font-weight: 400 !important;
+    font-size: 40px !important;
+}
+
+.text-top-helv {
+    color: black !important;
+    font-family: ff-clan-web-pro,"Helvetica Neue",Helvetica,sans-serif;
+}
+
+.btn-job-top {
+    color: #dab43c;
+    background-color: #2d6aae !important;
+    border-color: #2d6aae !important;
+    font-weight: 200 !important;
+    font-family: ff-clan-web-pro,"Helvetica Neue",Helvetica,sans-serif;
+}
+
+.btn-job-2 {
+    color: #2d6aae;
+    background-color: #dab43c !important;
+    border-color: #dab43c !important;
+    font-weight: 200 !important;
+    font-family: ff-clan-web-pro,"Helvetica Neue",Helvetica,sans-serif;
+}
+
+.btn-job-top:hover {
+    color: #dab43c;
+    background-color: #295898 !important;
+    border-color: #295898 !important;
+    font-weight: 200 !important;
+    font-family: ff-clan-web-pro,"Helvetica Neue",Helvetica,sans-serif;
+}
+
+.btn-job-2:hover {
+    color: #295898;
+    background-color: #cba53a !important;
+    border-color: #cba53a !important;
+    font-weight: 200 !important;
+    font-family: ff-clan-web-pro,"Helvetica Neue",Helvetica,sans-serif;
+}
+
+.responsive-tabs-classic[data-type="horizontal"] .resp-tabs-list li:before {
+background-color: #dab43c !important;
 }
