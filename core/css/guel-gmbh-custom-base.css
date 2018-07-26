@@ -246,7 +246,7 @@
 
 .logo-list li img {
     display: inline-block;
-    width: 90px;
+    width: 120px;
     /*height: 42px;*/
 }
 
@@ -255,10 +255,10 @@
 /*}*/
 
 .text-color-bblue-helv {
-    color: #2d6aae !important;
+    color: #618bb7 !important;
     font-family: ff-clan-web-pro,"Helvetica Neue",Helvetica,sans-serif;
     font-weight: 400 !important;
-    font-size: 40px !important;
+    font-size: 30px !important;
 }
 
 .text-top-helv {
@@ -267,9 +267,17 @@
 }
 
 .btn-job-top {
-    color: #dab43c;
-    background-color: #2d6aae !important;
-    border-color: #2d6aae !important;
+    color: #f5f5f6;
+    background-color: #618bb7 !important;
+    border-color: #618bb7 !important;
+    font-weight: 200 !important;
+    font-family: ff-clan-web-pro,"Helvetica Neue",Helvetica,sans-serif;
+}
+
+.btn-job-bottom-traum {
+    color: #f5f5f6;
+    background-color: #618bb7 !important;
+    border-color: #618bb7 !important;
     font-weight: 200 !important;
     font-family: ff-clan-web-pro,"Helvetica Neue",Helvetica,sans-serif;
 }
@@ -283,9 +291,16 @@
 }
 
 .btn-job-top:hover {
-    color: #dab43c;
+    color: #f5f5f6;
     background-color: #295898 !important;
     border-color: #295898 !important;
+    font-weight: 200 !important;
+    font-family: ff-clan-web-pro,"Helvetica Neue",Helvetica,sans-serif;
+}
+.btn-job-bottom-traum:hover {
+    color: #fcfcfc;
+    background-color: #2e73b9 !important;
+    border-color: #2e73b9 !important;
     font-weight: 200 !important;
     font-family: ff-clan-web-pro,"Helvetica Neue",Helvetica,sans-serif;
 }
@@ -299,5 +314,18 @@
 }
 
 .responsive-tabs-classic[data-type="horizontal"] .resp-tabs-list li:before {
-background-color: #dab43c !important;
+background-color: #618bb7 !important;
+}
+
+.swiper-container {
+    height: 60vh !important;
+}
+
+.ui-to-top {
+ color: #618bb7 !important;
+}
+
+.ui-to-top:hover {
+    background: rgba(245, 245, 246, 0);
+    border-color: #2e73b9;
 }
