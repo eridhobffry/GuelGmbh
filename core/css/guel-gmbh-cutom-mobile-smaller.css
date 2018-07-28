@@ -4,4 +4,9 @@
         margin-left: -14px !important;
     }
 
+    .style_mobile-swiperBox {
+        margin-left: 24px;
+        width: 90%;
+    }
+
 }
