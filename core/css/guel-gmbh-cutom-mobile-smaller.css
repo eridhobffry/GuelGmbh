@@ -9,4 +9,17 @@
         width: 90%;
     }
 
+    .style_ueber-bottom {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+
+    .section-xl {
+        padding-bottom: 10px !important;
+    }
+
+    .style9128 {
+        padding-left: 45px;
+    }
+
 }

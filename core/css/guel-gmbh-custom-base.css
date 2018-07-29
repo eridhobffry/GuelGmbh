@@ -56,7 +56,7 @@
 }
 
 .terms-list-bordered dt {
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .terms-list-bordered dt {
@@ -66,7 +66,6 @@
     font-family: ff-clan-web-pro,"Helvetica Neue",Helvetica,sans-serif;
     font-weight: 400;
     color: #000;
-    font-size: 4.14286rem !important;
     line-height: 1.45;
     letter-spacing: 0;
     padding-bottom: 12px;
@@ -425,12 +424,31 @@ background-color: #388fc8 !important;
 }
 
 .style_ueber-bottom {
-    padding-right: 40px;
-    padding-left: 40px;
+    padding-right: 110px;
+    padding-left: 130px;
+    padding-top: 80px;
 }
 
 .icon-default {
     color: #388fc8;
 }
 
+.style_text-ueber {
+    padding-top: 60px !important;
+}
 
+.color-line {
+    border-top: 1px solid #b7b7b7 !important;
+}
+
+.push-top-100 {
+    margin-top: -100px;
+}
+
+.distance_bottom-60 {
+    padding-top: 60px;
+}
+
+.style9128 {
+    padding-left: 142px;
+}
