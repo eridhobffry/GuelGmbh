@@ -464,3 +464,21 @@ background-color: #388fc8 !important;
 .distance_pdngBtm-20 {
     padding-bottom: 20px;
 }
+
+.text-subline {
+    position: relative;
+    height: 1px;
+    padding: 0;
+    background: #d9d9d9;
+    border: none;
+}
+
+.btn-guel {
+    color: #fff;
+    background-color: #00a6ee;
+    border-color: #00a6ee;
+}
+
+.text-guel {
+    color: #00a6ee;
+}

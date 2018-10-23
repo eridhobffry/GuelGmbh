@@ -22,4 +22,7 @@
         padding-left: 45px;
     }
 
+    .mobile-top-adapt {
+        padding-top: 100px !important;
+    }
 }
