@@ -23,6 +23,9 @@
 </head>
 <body>
 
+
+
+
 <div class="page text-center">
 
     <!-- Page Head-->
@@ -54,59 +57,117 @@
         </div>
     </header>
 
-
-    <main class="page-content" data-hijacking="off" data-animation="fixed">
-        <section class="section-xl bg-white text-center">
+    <main class="page-content section-top-98 section-sm-top-110 mobile-top-adapt">
+        <!-- Get In Touch-->
+        <section>
             <div class="shell">
-                <div class="range range-sm-center range-75">
-                    <div class="cell-xs-12 style9128">
-                        <h2 class="text-left">Impressum</h2>
-                        <div class="p text-width-medium">
-                            <!--<p class="big">If you have any questions regarding the services our barbershop offers, feel free to browse this section of frequently asked questions.</p>-->
+                <div class="range range-xs-center">
+                    <div class="cell-sm-9 cell-md-8 cell-lg-12">
+                        <div class="range">
+                            <div class="cell-lg-8">
+                                <h1 class="text-between">Contact Us</h1>
+                                <hr class="divider bg-mantis">
+                                <div class="text-left offset-top-30">
+                                    <p>Was können wir für Sie tun? <br>
+                                        Wenn Sie unsere Dienstleistung in Betracht ziehen oder einfach nur genauere Informationen wünschen, füllen Sie das Formular aus oder rufen Sie uns an.</p>
+                                </div>
+                                <!-- RD Mailform-->
+                                <form class="rd-mailform text-left offset-top-50" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
+                                    <div class="range">
+                                        <div class="cell-lg-6">
+                                            <div class="form-group">
+                                                <label class="form-label form-label-outside" for="contacts-first-name">Vorname (Pflichfeld)</label>
+                                                <input class="form-control" id="contacts-first-name" type="text" name="name" data-constraints="@Required">
+                                            </div>
+                                        </div>
+                                        <div class="cell-lg-6 offset-top-20 offset-lg-top-0">
+                                            <div class="form-group">
+                                                <label class="form-label form-label-outside" for="contacts-second-name">Nachname (Pflichfeld)</label>
+                                                <input class="form-control" id="contacts-second-name" type="text" name="name" data-constraints="@Required">
+                                            </div>
+                                        </div>
+                                        <div class="cell-lg-6 offset-top-20">
+                                            <div class="form-group">
+                                                <label class="form-label form-label-outside" for="contacts-email">E-mail (Pflichfeld)</label>
+                                                <input class="form-control" id="contacts-email" type="email" name="email" data-constraints="@Required @Email">
+                                            </div>
+                                        </div>
+                                        <div class="cell-lg-6 offset-top-20">
+                                            <div class="form-group">
+                                                <label class="form-label form-label-outside" for="contacts-phone">Tel. (Pflichfeld)</label>
+                                                <input class="form-control" id="contacts-phone" type="text" name="name" data-constraints="@Required">
+                                            </div>
+                                        </div>
+                                        <div class="cell-lg-12 offset-top-20">
+                                            <div class="form-group">
+                                                <label class="form-label form-label-outside" for="contact-me-message">Nachricht</label>
+                                                <textarea class="form-control" id="contact-me-message" name="message" data-constraints="@Required" style="height: 160px;"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div style="padding-top: 20px;" id="parent">
+                                        <div class="checkbox-inline">
+                                            <input type="checkbox" class="checkbox-custom" value="check" name="input-group-radio" id="checkFormular">
+                                            <span class="font-10">
+                                                Ich willige in die Verarbeitung meiner personenbezogenen Daten
+                                zum Zwecke der Bearbeitung meiner Kontaktanfrage ein.
+                                            </span>
+                                            <br>
+                                            <span class="font-10">
+                                                Ihre Einwilligung können Sie jederzeit widerrufen. Die Rechtmäßigkeit der aufgrund
+                                der Einwilligung bis zum Widerruf erfolgten Verarbeitung wird hiervon nicht berührt.
+                                Weitere Informationen erhalten Sie in unserer <span style="color: cornflowerblue"><a href="datenschutz.html">Datenschutzerklärung</a></span>.
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="range range-xs-center range-lg-left offset-top-30">
+                                        <div class="cell-xs-5 cell-sm-4 cell-lg-3">
+                                            <div class="inset-left-50 inset-right-50 inset-xs-left-0 inset-xs-right-0 inset-lg-right-50">
+                                                <button id="formular-submit-button" class="btn btn-block btn-guel" type="submit">Absenden</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="cell-lg-4 text-left offset-top-66 offset-lg-top-0">
+                                <div class="offset-top-41">
+                                    <p class="text-darker text-uppercase text-bold">Phone</p>
+                                </div>
+                                <div class="text-subline offset-top-10"></div>
+                                <div>
+                                    <p class="offset-top-20"><a href="callto:#">06887-8935067</a></p>
+                                <!--</div>-->
+                                <!--<div class="offset-top-50">-->
+                                    <!--<p class="text-darker text-uppercase text-bold">e-mail</p>-->
+                                <!--</div>-->
+                                <!--<div class="text-subline offset-top-10"></div>-->
+                                <!--<div class="offset-top-20">-->
+                                    <!--<p><a class="text-guel" href="mailto:#">info@guel.gmbh</a></p>-->
+                                <!--</div>-->
+                                <!--<div class="offset-top-50">-->
+                                    <!--<p class="text-darker text-uppercase text-bold">Addresse</p>-->
+                                <!--</div>-->
+                                <!--<div class="text-subline offset-top-10"></div>-->
+                                <!--<div class="offset-top-20">-->
+                                    <!--<p>Pastor-Dahm-Straße 16, 66839 Schmelz, Deutschland / Germany-->
+                                    <!--</p>-->
+                                <!--</div>-->
+                                <!--<div class="offset-top-50">-->
+                                    <!--<p class="text-darker text-uppercase text-bold">Öffnungszeiten</p>-->
+                                <!--</div>-->
+                                <!--<div class="text-subline offset-top-10"></div>-->
+                                <!--<div class="offset-top-20">-->
+                                    <!--<p>9:00–19:00 Mon–Sat</p>-->
+                                <!--</div>-->
+                            </div>
                         </div>
                     </div>
-                    <div class="cell-lg-10">
-                        <article class="box-spacer">
-                            <dl class="terms-list-bordered">
-                                <dt>Gül GmbH</dt>
-                                <dd>Pastor-Dahm-Straße 16</dd>
-                                <dd>66839 Schmelz</dd>
-                                <dd>Deutschland / Germany</dd>
-                                <dd>Tel.: 06887 8935067</dd>
-                                <dd>E-Mail: <span style="color: #00a6ee"><a href="formular.html">Kontakt Formular</a></span></dd>
-                                <dd>AG Saarbrücken, HRB 100749, USt.IdNr: DE286297909</dd>
-                                <dt>Geschäftsführer</dt>
-                                <dd>Deniz Gül</dd>
-                                <dt>Haftungsausschluss</dt>
-                                <dd>Die Gül GmbH ist nicht verantwortlich für die Inhalte externer Internetseiten.
-                                    Alle Inhalte und Bilder sind urheberrechtlich geschützt und dürfen nur im Rahmen der gewöhnlichen Nutzung des Angebots vervielfältigt,
-                                    verbreitet oder sonst genutzt werden.</dd>
-
-                                <dt>Verbraucherinformationen gemäß Verordnung (EU) Nr. 524/2013 und Verbraucherstreitbeilegungsgesetz (VSBG)</dt>
-                                <dd>Die Europäische Kommission stellt unter <span><a href="https://www.ec.europa.eu/consumers/odr">https://www.ec.europa.eu/consumers/odr</a></span> eine Platform für die außergerichtliche Online-Streitbeilegung (OS-Platform) bereit.
-                                    Unsere E-Mail-Adresse lautet: info@guel.gmbh.</dd>
-                                <dd>
-                                    Wir sind weder bereit,
-                                    an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen,
-                                    noch sind wir dazu verpflichtet.
-                                </dd>
-
-
-                            </dl>
-                        </article>
-                    </div>
-
-                    <div class="cell-xs-12 offset-lg-top-75 text-left style9128">
-                        <p class="big">Bildquelle: © WavebreakMediaMicro – fotolia.de</p>
-                        <p class="big">© Gül GmbH 2018. Irrtümer und Änderungen vorbehalten.</p>
-                    </div>
-                    <!--<div class="cell-xs-12"><a class="btn btn-sm btn-style-1 btn-primary" href="faq.html">Read more</a></div>-->
                 </div>
+            </div>
             </div>
         </section>
     </main>
 
-    <!-- Default footer-->
     <footer id="footer" class="page-footer to-front">
         <div>
             <div class="cell mobileFooter visible-xs">
@@ -181,6 +242,8 @@
 
     </footer>
 
+
+
 </div>
 <!-- Global Mailform Output-->
 <div class="snackbars" id="form-output-global"></div>
@@ -222,5 +285,6 @@
 <!-- Java script-->
 <script src="js/core.min.js"></script>
 <script src="js/script.js"></script>
+<script src="js/gmbh-custom-guel.js"></script>
 </body>
 </html>
